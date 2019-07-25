@@ -1,5 +1,5 @@
 {
-    "solidityVersion": "v0.4.24+commit.e67f0147",
+    "solidityVersion": "v0.5.0+commit.1d4f565a",
     "contracts": [
       {
         "name": "ZUCToken",
