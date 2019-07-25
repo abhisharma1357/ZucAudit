@@ -53,7 +53,7 @@ contract('ZUC Token Contract', async (accounts) => {
     await this.tokenhold.transfer(accounts[2],web3.utils.toHex(1*10**18), { from: accounts[1]});
 
    }catch(error){
-    var error_ = 'VM Exception while processing transaction: revert SafeMath: subtraction overflow';
+    var error_ = 'Returned error: VM Exception while processing transaction: revert SafeMath: subtraction overflow -- Reason given: SafeMath: subtraction overflow.';
     assert.equal(error.message, error_, 'Reverted ');
    }
 
@@ -109,7 +109,7 @@ contract('ZUC Token Contract', async (accounts) => {
     await this.tokenhold.transferFrom(accounts[0],accounts[3],web3.utils.toHex(100*10**18), { from: accounts[3]});
     }catch(error){
 
-    var error_ = 'VM Exception while processing transaction: revert SafeMath: subtraction overflow';
+    var error_ = 'Returned error: VM Exception while processing transaction: revert SafeMath: subtraction overflow -- Reason given: SafeMath: subtraction overflow.';
     assert.equal(error.message, error_, 'Reverted ');
     }
 
