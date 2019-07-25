@@ -1,0 +1,9 @@
+{
+    "solidityVersion": "v0.4.24+commit.e67f0147",
+    "contracts": [
+      {
+        "name": "ZUCToken",
+        "path": "./contracts/ZUCToken.sol"
+      }
+    ]
+  }
