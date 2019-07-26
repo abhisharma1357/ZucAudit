@@ -90,7 +90,7 @@ contract('ZUC Token Contract', async (accounts) => {
     assert.equal(allowanceLater / 10 ** 18, 100, "allowance is wrong when approve");
   });
 
-  it("should decrease the allowance ", async () => {
+  it("should decrease the allowance", async () => {
 
     let allowance = await this.tokenhold.allowance.call(accounts[0], accounts[3]);
     assert.equal(allowance / 10 ** 18, 100, "allowance is wrong when approve");
