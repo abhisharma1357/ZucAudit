@@ -38,7 +38,7 @@ contract('ZUC Token Contract', async (accounts) => {
 
   });
 
-  it('Should check the balance of a Owner', async () => {
+  it('Should check the balance of a Owner of ZUC contract', async () => {
 
     let balanceOfOwner = await this.tokenhold.balanceOf(accounts[0]);
     assert.equal(balanceOfOwner/10**18,750*1000000); 
