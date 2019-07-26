@@ -4,7 +4,7 @@ var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
 contract('ZUC Token Contract', async (accounts) => {
 
-  it('Should correctly initialize constructor values of ZUC Token Contract', async () => {
+  it('Should correctly initialize constructor values of zuc Token Contract', async () => {
     
     this.tokenhold = await ZUCToken.new({from : accounts[0]});
   
