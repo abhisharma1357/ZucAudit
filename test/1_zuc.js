@@ -10,7 +10,7 @@ contract('ZUC Token Contract', async (accounts) => {
   
   });
 
-  it('Should check the Total Supply of ZUC Tokens (Failed)', async () => {
+  it('Should check the Total Supply of zuc Tokens (Failed)', async () => {
 
 
   let totalSupply = await this.tokenhold.totalSupply();
