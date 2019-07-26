@@ -24,7 +24,7 @@ contract('ZUC Token Contract', async (accounts) => {
 
   });
 
-  it('Should check the Symbol of a token of zuc contract', async () => {
+  it('Should check the Symbol of a token of Zuc contract', async () => {
 
     let symbol = await this.tokenhold.symbol();
     assert.equal(symbol,'ZUC'); 
@@ -81,7 +81,7 @@ contract('ZUC Token Contract', async (accounts) => {
   
   });
 
-    it("should increase the allowance ", async () => {
+    it("should increase the allowance", async () => {
 
     let allowance = await this.tokenhold.allowance.call(accounts[0], accounts[3]);
     assert.equal(allowance / 10 ** 18, 60, "allowance is wrong when approve");
