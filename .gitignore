@@ -1,0 +1,15 @@
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+build/
+
+node_modules/
+
+#Ignore VS code launch.json
+launch.json
+log/*
+heapdump-*
+isolate-*
+coverage
