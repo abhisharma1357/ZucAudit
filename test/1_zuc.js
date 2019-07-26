@@ -24,7 +24,7 @@ contract('ZUC Token Contract', async (accounts) => {
 
   });
 
-  it('Should check the symbol of a token of Zuc contract', async () => {
+  it('Should check the symbol of a token of zuc contract', async () => {
 
     let symbol = await this.tokenhold.symbol();
     assert.equal(symbol,'ZUC'); 
