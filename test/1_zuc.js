@@ -10,21 +10,21 @@ contract('ZUC Token Contract', async (accounts) => {
   
   });
 
-  it('Should check the Total Supply of ZUC Tokens', async () => {
+  it('Should check the Total Supply of zuc Tokens', async () => {
 
 
   let totalSupply = await this.tokenhold.totalSupply();
   assert.equal(totalSupply/10**18,750*1000000); 
   });
 
-  it('Should check the Name of a token of Zuc contract', async () => {
+  it('Should check the Name of a token of zuc contract', async () => {
 
     let name = await this.tokenhold.name();
     assert.equal(name,'Zeuxcoin'); 
 
   });
 
-  it('Should check the Symbol of a token of Zuc contract', async () => {
+  it('Should check the Symbol of a token of zuc contract', async () => {
 
     let symbol = await this.tokenhold.symbol();
     assert.equal(symbol,'ZUC'); 
