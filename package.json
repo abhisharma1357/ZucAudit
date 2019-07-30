@@ -38,6 +38,7 @@
   },
   "homepage": "https://gitlab.com/abhi_21094/zuc",
   "dependencies": {
+    "solcheck": "^0.1.3",
     "web3": "^1.0.0-beta.55",
     "zeppelin-solidity": "1.3.0"
   },
