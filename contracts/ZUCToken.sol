@@ -1,5 +1,5 @@
 /**
- *Submitted for verification at Etherscan.io on 2019-08-01
+ *Submitted for verification at Etherscan.io on 2019-08-02
 */
 
 // File: openzeppelin-solidity/contracts/token/ERC20/IERC20.sol
