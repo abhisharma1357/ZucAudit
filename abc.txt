@@ -1,0 +1,20 @@
+Compiling ./contracts/ZUCToken.sol...
+
+/home/abhi/Projects/zuc/contracts/ZUCToken.sol:2:1: SyntaxError: Source file requires different compiler version (current compiler is 0.4.24+commit.e67f0147.Emscripten.clang - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.10;
+^---------------------^
+[31mCompilation failed. See above.[39m
+Compiling ./contracts/ZUCToken.sol...
+
+/home/abhi/Projects/zuc/contracts/ZUCToken.sol:2:1: SyntaxError: Source file requires different compiler version (current compiler is 0.4.24+commit.e67f0147.Emscripten.clang - note that nightly builds are considered to be strictly less than the released version
+pragma solidity 0.5.10;
+^---------------------^
+[31mCompilation failed. See above.[39m
+Compiling ./contracts/ZUCToken.sol...
+Writing artifacts to ./build/contracts
+
+Using network 'development'.
+
+Running migration: 1_initial_migration.js
+Using network 'development'.
+
