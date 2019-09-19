@@ -15,6 +15,7 @@ module.exports = {
     gasPrice: 0x01     // <-- Use this low gas price
   },
   solc: {
+    version: "0.5.8",
     optimizer: {
       enabled: true,
       runs: 200
