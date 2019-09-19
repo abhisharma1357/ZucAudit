@@ -34,7 +34,7 @@ module.exports = {
     }
   },
   solc: {
-    version: "0.5.10",
+    version: "^0.5.10",
     optimizer: {
       enabled: true,
       runs: 200
